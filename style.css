@@ -1,0 +1,75 @@
+body {
+  font-family: fantasy;
+  background: linear-gradient( to right top, rgba(255, 5, 5, 0.966), rgba(17, 0, 255, 0.973));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.calculator {
+  position: relative;
+  display: grid;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+#result {
+  grid-column: span 4;
+  height: 100px;
+  width: 244px;
+  text-align: right;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  background: rgb(230, 228, 228);
+  color: #0c2835;
+}
+
+.calculator input {
+  display: grid;
+  width: 60px;
+  height: 60px;
+  color: rgb(228, 231, 208);
+  background: #0c2835;
+  place-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 1px;
+  margin-right: 1px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calculator input:hover {
+  background: #45575fc9;
+}
+
+.calculator input:active {
+  background: rgba(28, 252, 240, 0.932);
+  color: #111111;
+}
+
+.calculator input.clear {
+  grid-column: span 2;
+  width: 120px;
+}
+
+.calculator input.plus {
+  grid-row: span 2;
+  height: 121px;
+}
+
+.calculator input.equals {
+  background: linear-gradient( to right top, rgba(0, 255, 136, 0.973), white, rgba(0, 255, 136, 0.973));
+  font-size: xx-large;
+  color: black;
+}
+
+.calculator input.equals:active {
+  background: yellow;
+}

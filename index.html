@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="my.js"></script>
+    <title>simple calculator</title>
+  </head>
+  <body>
+    <div id="contanier">
+      <form class="calculator" name="calc">
+        <input id="result" type="text"/>
+        <input type="button" class="clear" value="C" onclick="clr()"></input>
+        <input  type="button"   value ="/" onclick="dis('/')"></input>
+        <input  type="button"  value ="*" onclick="dis('*')"></input>
+        <input  type="button"  value ="7" onclick="dis('7')"></input>
+        <input  type="button"  value ="8" onclick="dis('8')"></input>
+        <input  type="button"  value ="9" onclick="dis('9')"></input>
+        <input  type="button"  value ="-" onclick="dis('-')"></input>
+        <input  type="button"  value ="4" onclick="dis('4')"></input>
+        <input  type="button"  value ="5" onclick="dis('5')"></input>
+        <input  type="button"  value ="6" onclick="dis('6')"></input>
+        <input class="plus" type="button"  value ="+" onclick="dis('+')"></input>
+        <input  type="button"  value ="3" onclick="dis('3')"></input>
+        <input  type="button"  value ="2" onclick="dis('2')"></input>
+        <input  type="button"  value ="1" onclick="dis('1')"></input>
+        <input  type="button"  value ="0" onclick="dis('0')"></input>
+        <input  type="button"  value ="00" onclick="dis('00')"></input>
+        <input  type="button"  value ="." onclick="dis('.')"></input>
+        <input  type="button"  value="=" onclick="solve()">  </span>
+      </form>
+    </div>
+  </body>
+</html>
