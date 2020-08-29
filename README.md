@@ -1,1 +1,3 @@
-# simple-calculator-v2
+simple-calculator-v2
+creadted using HTML CSS JS 
+fixed bugs and design 
