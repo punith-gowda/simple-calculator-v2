@@ -69,12 +69,6 @@ body {
   height: 121px;
 }
 
-.calculator input.equals {
-  background: linear-gradient( to right top, rgba(0, 255, 136, 0.973), white, rgba(0, 255, 136, 0.973));
-  font-size: xx-large;
-  color: black;
-}
-
 .calculator input.equals:active {
   background: yellow;
 }
