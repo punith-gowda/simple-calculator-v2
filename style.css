@@ -59,6 +59,11 @@ body {
   width: 120px;
 }
 
+.calculator input.equals {
+  grid-column: span 2;
+  width: 120px;
+}
+
 .calculator input.plus {
   grid-row: span 2;
   height: 121px;
